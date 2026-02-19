@@ -9,8 +9,8 @@ Analizar el desempeño logístico de una operación simulada (100 pedidos) media
 
 - **`data/`** → Carpeta con bases de datos:
   - `base_original.csv` → Base de datos inicial con información de pedidos.
-  - `base_limpia.csv` → Base de datos normalizada y lista para análisis.
-  - `dataset_dashboard.xlsx` → Archivo de Excel con tablas dinámicas y análisis.
+  - `base_limpia.csv` → Base de datos normalizada.
+  - `dataset_dashboard.xlsx` → Archivo de Excel completo (Base de datos inicial, normalizada, tablas dinámicas y análisis.
 
 - **`dashboard/`** → Carpeta con dashboard interactivo exportado:
   - `dashboard_looker.pdf` → Dashboard final en Looker Studio.
