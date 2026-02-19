@@ -14,7 +14,7 @@ Analizar el desempeño logístico de una operación simulada (100 pedidos) media
 
 - **`dashboard/`** → Carpeta con dashboard interactivo exportado:
   - `dashboard_looker.pdf` → Dashboard final en Looker Studio.
-  - O puedes reemplazar por el link directo: [Dashboard en Looker Studio](AQUÍ_PON_EL_LINK_DE_LOOKER)
+  - O puedes reemplazar por el link directo: [Dashboard en Looker Studio](https://lookerstudio.google.com/s/ibqd5kg7u1c)
 
 - **`capturas/`** → Carpeta con imágenes de soporte:
   - `resumen_general.png` → KPIs globales.
