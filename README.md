@@ -60,6 +60,5 @@ Analizar el desempeño logístico de una operación simulada (100 pedidos) media
 
 ---
 
-**Autor:** NOMBRE APELLIDO  
-**Contacto:** [Correo / LinkedIn]
+**Autor:** LAURA M
 
