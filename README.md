@@ -1,64 +1,40 @@
-# Proyecto de Análisis Logístico - Seguimiento de Cumplimiento de Entregas
+# 📦 Optimización de Last Mile: Análisis de Cumplimiento (OTIF) y Devoluciones
 
-## Objetivo
-Analizar el desempeño logístico de una operación simulada (100 pedidos) mediante el seguimiento de cumplimiento de promesa de entrega, devoluciones y causas de retraso. Este proyecto demuestra la capacidad de gestión de datos, cálculo de KPIs y visualización ejecutiva.
-
----
-
-## Estructura de Archivos
-
-- **`data/`** → Carpeta con bases de datos:
-  - `base_original.csv` → Base de datos inicial con información de pedidos.
-  - `base_limpia.csv` → Base de datos normalizada.
-  - `dataset_dashboard.xlsx` → Archivo de Excel completo (Base de datos inicial, normalizada, tablas dinámicas y análisis.
-
-- **`dashboard/`** → Carpeta con dashboard interactivo exportado:
-  - `dashboard_looker.pdf` → Dashboard final en Looker Studio.
-  - O puedes reemplazar por el link directo: [Dashboard en Looker Studio](https://lookerstudio.google.com/s/ibqd5kg7u1c)
-
-- **`capturas/`** → Carpeta con imágenes de soporte:
-  - `resumen_general.png` → KPIs globales.
-  - `transportadoras.png` → Desempeño por transportadora.
-  - `ciudades.png` → Desempeño por ciudad.
-  - `razones_retraso.png` → Principales causas de retraso.
+### Análisis de Eficiencia en Distribución y Gestión de Novedades
+**Herramientas:** `Excel (Power Query)` | `Looker Studio` | `Gestión de KPIs` | `Análisis Estadístico`
 
 ---
 
-## KPIs Analizados
+## 🎯 Objetivo del Proyecto
+Identificar cuellos de botella y fugas de eficiencia en la operación de última milla mediante el análisis de 100 órdenes de pedido. El enfoque principal es la medición del cumplimiento de la promesa de entrega (**SLA**) y el impacto financiero de la logística inversa (devoluciones).
 
-- % Cumplimiento de entrega → 57%
-- % Devoluciones → 23%
-- Promedio días de retraso → 0,43
-- Cumplimiento por transportadora y ciudad
-- Identificación de principales causas de retraso
+## 🛠️ Metodología (Data Governance)
+Para garantizar la integridad del análisis, se ejecutó el siguiente flujo:
+1. **Extracción y Limpieza:** Normalización de datos en Excel, estandarización de nomenclaturas de ciudades y transportadoras para eliminar duplicados.
+2. **Modelado:** Creación de columnas calculadas para medir el `Tiempo de Entrega Real` vs. `Promesa de Entrega`.
+3. **Visualización:** Diseño de un Dashboard Ejecutivo interactivo en **Looker Studio** para el monitoreo de indicadores críticos.
 
----
+## 📊 Hallazgos Críticos (Insights de Negocio)
+* **Brecha de Cumplimiento:** El **OTIF** global es del **57%**, lo que indica una oportunidad de mejora del 43% en la experiencia del cliente final.
+* **Impacto de Devoluciones:** Una tasa del **23%** de retorno genera un sobrecosto logístico que debe ser mitigado mediante validación de datos en origen.
+* **Anomalía Geográfica (Medellín):** Se identificó que Medellín concentra el mayor volumen de incumplimiento, sugiriendo una saturación en la red de distribución local.
+* **Causas Raíz:** El **"Cliente Ausente"** y **"Fallas Logísticas"** son los principales detonantes de los retrasos.
 
-## Herramientas Utilizadas
-
-- Excel / Google Sheets → limpieza, normalización, análisis y tablas dinámicas.
-- Looker Studio → visualización interactiva y dashboard ejecutivo.
-
----
-
-## Principales Hallazgos
-
-- 43% de los pedidos presentaron retrasos.  
-- 23% terminaron en devolución.  
-- Medellín concentra el mayor nivel de incumplimiento en volumen y porcentaje.  
-- Las principales causas de retraso: Logística y Cliente ausente.  
-- Se recomienda fortalecer el seguimiento por ciudad y transportadora para optimizar el desempeño logístico.
+## 💡 Propuesta de Mejora Analítica
+Basado en los datos, se recomiendan las siguientes acciones:
+1. **Notificaciones Proactivas:** Implementar alertas automáticas al cliente para reducir la tasa de "Cliente Ausente".
+2. **Auditoría de Transportadoras:** Revisar los acuerdos de nivel de servicio (ANS) específicamente en la zona de Medellín debido al bajo desempeño detectado.
 
 ---
 
-## Cómo Explorar el Proyecto
+## 📂 Estructura del Repositorio
+* **data/**: Contiene el dataset original y la base de datos normalizada (`base_limpia.csv`).
+* **dashboard/**: Enlace al reporte interactivo y exportación en PDF.
+* **capturas/**: Visualizaciones clave de KPIs de transportadoras y ciudades.
 
-1. Revisar la carpeta `data/` para ver el dataset original y la base limpia.  
-2. Abrir `dataset_dashboard.xlsx` para ver el análisis paso a paso y tablas dinámicas.  
-3. Consultar la carpeta `capturas/` para ver visualizaciones clave del dashboard.  
-4. Abrir `dashboard_looker.pdf` o el link de Looker Studio para el dashboard interactivo final.
+### 🔗 Enlaces de Interés
+* [Ver Dashboard Interactivo en Looker Studio](TU_LINK_AQUÍ)
+* [Revisar Análisis en Excel]()
 
----
 
-**Autor:** LAURA M
-
+**Autor** Laura M
