@@ -33,7 +33,7 @@ Basado en los datos, se recomiendan las siguientes acciones:
 * **capturas/**: Visualizaciones clave de KPIs de transportadoras y ciudades.
 
 ### Enlaces de Interés
-* [Ver Dashboard Interactivo en Looker Studio](TU_LINK_AQUÍ)
+* [Ver Dashboard Interactivo en Looker Studio](https://lookerstudio.google.com/reporting/c4186dd3-699f-47a4-9f90-34eb5d0b631e)
 * [Revisar Análisis en Excel]()
 
 
