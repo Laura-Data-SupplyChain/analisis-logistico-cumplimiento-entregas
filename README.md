@@ -34,7 +34,7 @@ Basado en los datos, se recomiendan las siguientes acciones:
 
 ### Enlaces de Interés
 * [Ver Dashboard Interactivo en Looker Studio](https://lookerstudio.google.com/reporting/c4186dd3-699f-47a4-9f90-34eb5d0b631e)
-* [Revisar Análisis en Excel]()
+* [Revisar Análisis en Excel](https://docs.google.com/spreadsheets/d/1zfgc8o4R3_vumDl0f9RYY7ikEFRyiKY_3Ud3nQBkyUI/edit?usp=sharing)
 
 
 **Autor** Laura M
